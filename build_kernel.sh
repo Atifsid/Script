@@ -46,10 +46,10 @@ Latest Commit: <code>$(git log --pretty=format:'%h : %s' -1)</code>
 
 cp $(pwd)/out/arch/arm64/boot/Image.gz-dtb $(pwd)/anykernel 
         cd anykernel 
-        zip -r9 kernel.zip * -x README.md kernel.zip
+        zip -r9 QuantumKernel.zip * -x README.md QuantumKernel.zip
 
 curl -F chat_id="${chat_id}" -F document=@"$(pwd)/kernel.zip" https://api.telegram.org/bot${BOT_API_TOKEN}/sendDocument
-        rm -rf kernel.zip && rm -rf Image.gz-dtb
+        rm -rf QuantumKernel.zip && rm -rf Image.gz-dtb
 cd .. 
 rm -rf out 
 
