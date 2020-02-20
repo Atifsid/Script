@@ -5,7 +5,7 @@ mkdir out
 git clone https://github.com/Atifsid/AnyKernel3.git --depth=1 anykernel
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9 --depth=1 gcc
 git clone https://android.googlesource.com/platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9 --depth=1 gcc32
-git clone https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 --depth=1 clang
+#git clone https://android.googlesource.com/platform/prebuilts/clang/host/linux-x86 --depth=1 clang
 cd clang
 find . | grep -v 'clang-r370808' | xargs rm -rf
 cd ..
