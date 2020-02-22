@@ -7,9 +7,9 @@ export TZ="Asia/Kolkata";
  
 # Kernel compiling script
 mkdir -p $HOME/TC
-git clone git://github.com/RaphielGang/aarch64-linux-gnu-8.x $HOME/TC/aarch64-linux-gnu-8.x --depth=1
-git clone https://github.com/VRanger/clang.git dragontc
-git clone https://github.com/Atifsid/AnyKernel3.git anykernel
+#git clone git://github.com/RaphielGang/aarch64-linux-gnu-8.x $HOME/TC/aarch64-linux-gnu-8.x --depth=1
+#git clone https://github.com/VRanger/clang.git dragontc
+#git clone https://github.com/Atifsid/AnyKernel3.git anykernel
 
 function check_toolchain() {
  
